@@ -58,7 +58,7 @@ oauthlib==3.1.0           # via requests-oauthlib
 odfpy==1.4.1              # via tablib
 openpyxl==3.0.3           # via tablib
 packaging==20.3           # via deprecation
-pillow==6.2.0             # via -r requirements.in
+pillow==7.1.0             # via -r requirements.in
 promise==2.2.1            # via graphene-django, graphql-core, graphql-relay
 psycopg2==2.8.3           # via -r requirements.in
 pyasn1==0.4.5             # via rsa
@@ -78,7 +78,7 @@ rsa==4.0                  # via python-jose
 rx==1.6.1                 # via graphql-core
 sentry-sdk==0.10.2        # via -r requirements.in
 singledispatch==3.4.0.3   # via graphene-django
-six==1.14.0               # via django-anymail, django-munigeo, graphene, graphene-django, graphql-core, graphql-relay, isodate, promise, pyjwkest, python-jose, singledispatch
+six==1.14.0               # via django-anymail, django-munigeo, graphene, graphene-django, graphql-core, graphql-relay, isodate, packaging, promise, pyjwkest, python-jose, singledispatch
 sqlparse==0.3.0           # via django
 tablib[html,ods,xls,xlsx,yaml]==1.1.0  # via django-import-export
 uritemplate==3.0.0        # via coreapi
